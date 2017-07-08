@@ -1,3 +1,6 @@
+.row {
+  width: 100%; }
+
 .proyectos h2 {
   text-align: center;
   margin-top: 10%; }
@@ -5,10 +8,30 @@
   margin-left: -10%;
   margin-top: 5%; }
 
+#tema--general {
+  margin-top: 7%; }
+
+#contenidos h4 {
+  margin-top: 5%; }
+#contenidos .card-image {
+  height: 200px; }
+#contenidos .card-content {
+  height: 220px; }
+
+.card-panel {
+  margin-top: 13%;
+  height: 300px; }
+
+.teal {
+  background-color: white !important; }
+
 /*MEDIA QUERIES*/
 @media screen and (max-width: 767px) {
   .proyectos button {
-    margin-left: -26%; } }
+    margin-left: -26%; }
+
+  .card card-title {
+    font-size: 3rem !important; } }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .proyectos button {
     margin-top: 12%; } }

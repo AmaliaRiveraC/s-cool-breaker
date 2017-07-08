@@ -1,5 +1,8 @@
 @import 'colors';
 
+.row {
+    width: 100%;
+}
 
 .proyectos {
     h2 {
@@ -12,7 +15,31 @@
     }
 }
 
+#tema--general {
+    margin-top: 7%;
+}
 
+#contenidos {
+    h4 {
+        margin-top: 5%;
+    }
+    
+    .card-image {
+        height: 200px;
+    }
+    .card-content {
+        height: 220px;
+    }
+}
+
+.card-panel {
+    margin-top: 13%;
+    height: 300px;
+}
+
+.teal {
+    background-color: white !important;
+}
 
 
 /*MEDIA QUERIES*/
@@ -26,6 +53,12 @@ $max-ipad: 1024px;
     margin-left: -26%; 
   }
  }
+    
+    .card {
+        card-title {
+          font-size: 3rem !important;  
+        }
+    }
 }
 
 
