@@ -1,5 +1,6 @@
 @import 'colors';
 
+
 .alinear{
     text-align: center;
     
@@ -28,6 +29,43 @@
     }
 }
 
+
+#tema--general {
+    margin-top: 7%;
+}
+
+#contenidos {
+    h4 {
+        margin-top: 5%;
+    }
+    
+    .card-image {
+        height: 200px;
+    }
+    .card-content {
+        height: 220px;
+    }
+}
+
+.card-panel {
+    margin-top: 13%;
+    height: 300px;
+}
+
+.teal {
+  background-color: white !important; }
+
+.tema {
+	.tema__img {
+		width: 80%;
+	}
+	
+	.tema__parrafo {
+		font-size: 1em;
+	}
+}
+
+
 /*MEDIA QUERIES*/
 $max-celular: 767px;
 $max-ipad: 1024px; 
@@ -39,6 +77,12 @@ $max-ipad: 1024px;
     margin-left: -26%; 
   }
  }
+    
+    .card {
+        card-title {
+          font-size: 3rem !important;  
+        }
+    }
 }
 
 
