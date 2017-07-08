@@ -1,5 +1,13 @@
 @import 'colors';
 
+.alinear{
+    text-align: center;
+    
+}
+
+.ramasProyectoMobil{
+    display: none;
+}
 
 .proyectos {
     h2 {
@@ -11,9 +19,6 @@
         margin-top: 5%;
     }
 }
-
-
-
 
 /*MEDIA QUERIES*/
 $max-celular: 767px;
@@ -35,4 +40,16 @@ $max-ipad: 1024px;
     margin-top: 12%;
   }
  }
+}
+
+
+@media only screen and (max-width: 500px) {
+    .ramasProyecto{
+        display: none;
+    }
+    
+    .ramasProyectoMobil{
+        display: block;
+    }
+
 }

@@ -1,3 +1,8 @@
+.alinear {
+  text-align: center; }
+
+.ramasProyectoMobil {
+  display: none; }
 
 .proyectos h2 {
   text-align: center;
@@ -13,11 +18,11 @@
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .proyectos button {
     margin-top: 12%; } }
+@media only screen and (max-width: 500px) {
+  .ramasProyecto {
+    display: none; }
+
+  .ramasProyectoMobil {
+    display: block; } }
 
 /*# sourceMappingURL=style.css.map */
-
-.proyectos--tarjetas__centrar{
-    display: flex;
-    
-}
-
