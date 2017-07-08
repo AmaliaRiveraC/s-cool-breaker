@@ -22,7 +22,7 @@
 .tema .tema__img {
   width: 80%; }
 .tema .tema__parrafo {
-  font-size: 1rem; }
+  font-size: 1em; }
 
 /*MEDIA QUERIES*/
 @media screen and (max-width: 767px) {
