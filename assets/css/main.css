@@ -1,0 +1,46 @@
+nav{
+	background-color: transparent;
+}
+
+section.proyectos{
+	background-image: url(../img/teamwork.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100vh;
+	color: white;
+}
+
+section.proyectos h2 {
+	margin: 3% 0 0 0;
+	margin-bottom: 3%;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 3.1em;
+}
+
+section.proyectos div.row div label, input {
+	color: white;
+	margin: 0;
+	padding: 0;
+}
+
+section.proyectos div.row div button {
+		background-color: white;
+	border: 1px solid white;
+	color: #C33149;
+}
+
+section.proyectos div.row div button:hover {
+	background-color: white;
+	opacity: 0.8;
+	border: 1px solid white;
+	color: #C33149;
+}
+
+.sin-sombra {
+	box-shadow: none;
+}
+
+.txt-rojo{
+	color: #C33149;
+}
