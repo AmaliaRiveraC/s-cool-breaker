@@ -1,18 +1,28 @@
-.alinear{
-    text-align: center;
-    
-}
+.alinear {
+  text-align: center; }
 
-.ramasProyectoMobil{
-    display: none;
-}
+.ramasProyectoMobil {
+  display: none; }
+
+.proyectos h2 {
+  text-align: center;
+  margin-top: 10%; }
+.proyectos button {
+  margin-left: -10%;
+  margin-top: 5%; }
+
+/*MEDIA QUERIES*/
+@media screen and (max-width: 767px) {
+  .proyectos button {
+    margin-left: -26%; } }
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .proyectos button {
+    margin-top: 12%; } }
 @media only screen and (max-width: 500px) {
-    .ramasProyecto{
-        display: none;
-    }
-    
-    .ramasProyectoMobil{
-        display: block;
-    }
-   
-}
+  .ramasProyecto {
+    display: none; }
+
+  .ramasProyectoMobil {
+    display: block; } }
+
+/*# sourceMappingURL=style.css.map */
