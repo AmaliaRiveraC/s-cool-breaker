@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Tema</title>
+		<link rel="stylesheet" href="assets/css/materialize.min.css">
+		<link rel="stylesheet" href="assets/css/style.css">
+	</head>
+
+
+	<body>
+		<nav>
+			<div class="nav-wrapper">
+				<a href="#" class="brand-logo">Logo</a>
+				<ul id="nav-mobile" class="right hide-on-med-and-down">
+					<li><a href="index.html">Inicio</a></li>
+					<li><a href="proyectos.html">Proyectos Disponibles</a></li>
+					<li><a href="collapsible.html">Contacto</a></li>
+				</ul>
+			</div>
+		</nav>
+		<section class="container">
+			<div class="row center">
+				<h3>Feedback</h3>
+			</div>
+
+
+			<ul>
+				<li type="none"  id="comentariosPublicados">
+					<div name="comentariosPublicados" id="nuevosComentarios" style="border: 1px color: black"><hr width="800"  align="left"></div>
+
+				</li>
+
+			</ul>
+
+			<form>
+				<h3>Crear artículo</h3>
+				<input type="button" value="Texto Grande" onclick="letraGrande()">
+				<input type="button" value="Texto Mediano" onclick="letraMediana()">
+				<input type="button" value="Texto Chico" onclick="letraChica();">
+				<input type="button" value="Color de Texto" onclick="colorDeTexto()">
+				<input type="button" value="Color de Fondo" onclick="colorDeFondo()">
+				<input type="button" value="Alinear Izquierda" onclick="alinearIzquierda()">
+				<input type="button" value="Centrar" onclick="centrar()">
+				<input type="button" value="Alinear Derecha" onclick="alinearDerecha()">
+				<div>
+
+					<textarea name="ingresarComentario" id="ingresarComentario" placeholder="Escribe aquí tu artículo" value="comentario" oninput="duplicar()" style="width: 787px; height: 150px"></textarea>
+				</div>
+			</form>
+			<div>
+				<h3>Cómo se ve tu artículo</h3>
+
+				<p name="comentarioEnTiempoReal" id="comentarioEnTiempoReal"> </p>
+				<hr>
+				<input type="submit" value="Enviar" onclick="publicarComentario();">
+			</div>
+		</section>
+
+		<footer></footer>
+		<script src="assets/js/app.js"></script>
+	</body>
+</html>
