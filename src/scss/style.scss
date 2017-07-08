@@ -1,0 +1,38 @@
+@import 'colors';
+
+
+.proyectos {
+    h2 {
+    text-align: center;
+    margin-top: 10%;
+  }
+    button {
+        margin-left: -10%;
+        margin-top: 5%;
+    }
+}
+
+
+
+
+/*MEDIA QUERIES*/
+$max-celular: 767px;
+$max-ipad: 1024px; 
+
+
+@media screen and (max-width: $max-celular) {
+    .proyectos {
+    button {
+    margin-left: -26%; 
+  }
+ }
+}
+
+
+@media screen and (min-width: $max-celular + 1) and (max-width: $max-ipad) {
+    .proyectos {
+    button {
+    margin-top: 12%;
+  }
+ }
+}
