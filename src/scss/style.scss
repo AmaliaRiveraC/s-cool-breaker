@@ -4,9 +4,17 @@
     text-align: center;
     
 }
+.centrarVertical{
+    display: flex;
+    align-items: center;
+}
 
 .ramasProyectoMobil{
     display: none;
+}
+.pointer{
+    cursor: pointer;
+    font-size: 10vh;
 }
 
 .proyectos {
