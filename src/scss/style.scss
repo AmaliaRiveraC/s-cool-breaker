@@ -1,7 +1,21 @@
 @import 'colors';
 
-.row {
-    width: 100%;
+
+.alinear{
+    text-align: center;
+    
+}
+.centrarVertical{
+    display: flex;
+    align-items: center;
+}
+
+.ramasProyectoMobil{
+    display: none;
+}
+.pointer{
+    cursor: pointer;
+    font-size: 10vh;
 }
 
 .proyectos {
@@ -14,6 +28,7 @@
         margin-top: 5%;
     }
 }
+
 
 #tema--general {
     margin-top: 7%;
@@ -38,7 +53,16 @@
 }
 
 .teal {
-    background-color: white !important;
+  background-color: white !important; }
+
+.tema {
+	.tema__img {
+		width: 80%;
+	}
+	
+	.tema__parrafo {
+		font-size: 1rem;
+	}
 }
 
 
@@ -68,4 +92,16 @@ $max-ipad: 1024px;
     margin-top: 12%;
   }
  }
+}
+
+
+@media only screen and (max-width: 500px) {
+    .ramasProyecto{
+        display: none;
+    }
+    
+    .ramasProyectoMobil{
+        display: block;
+    }
+
 }
