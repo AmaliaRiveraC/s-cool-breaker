@@ -28,6 +28,17 @@
     }
 }
 
+.tema {
+	.tema__img {
+		width: 80%;
+	}
+	
+	.tema__parrafo {
+		font-size: 1rem;
+	}
+}
+
+
 /*MEDIA QUERIES*/
 $max-celular: 767px;
 $max-ipad: 1024px; 
