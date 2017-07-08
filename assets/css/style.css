@@ -1,4 +1,18 @@
-.proyectos--tarjetas__centrar{
-    display: flex;
+.alinear{
+    text-align: center;
     
+}
+
+.ramasProyectoMobil{
+    display: none;
+}
+@media only screen and (max-width: 500px) {
+    .ramasProyecto{
+        display: none;
+    }
+    
+    .ramasProyectoMobil{
+        display: block;
+    }
+   
 }
