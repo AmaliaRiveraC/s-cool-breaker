@@ -21,7 +21,7 @@ $("#sumbmit-proyectos").click(mostrarProyectos);
         selectMonths: true, // Creates a dropdown to control month
         selectYears: 2 // Creates a dropdown of 15 years to control year
     });
-});
+
 
 /* HTML feedback chat */
 var ingresarComentario = document.getElementById("ingresarComentario");
